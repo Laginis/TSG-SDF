@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 457f4597a748c1d4e912679d74d4ff8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SDFVolume
-  sdf: {fileID: 11400000, guid: 5b6248620d9080949bae714a4b180f95, type: 2}
+  sdf: {fileID: 0}
 --- !u!4 &248095204
 Transform:
   m_ObjectHideFlags: 0
@@ -204,7 +204,7 @@ MonoBehaviour:
   sdfVolume: {fileID: 248095203}
   mesh: {fileID: 289301614986012343, guid: 6748a506bde55e844986855f1d990062, type: 3}
   material: {fileID: 2100000, guid: 3a6bcdb47560d6147abc9721e9c15324, type: 2}
-  shadowCasting: 0
+  shadowCasting: 1
 --- !u!114 &248095207
 MonoBehaviour:
   m_ObjectHideFlags: 0
